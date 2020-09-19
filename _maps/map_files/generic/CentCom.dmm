@@ -2541,6 +2541,7 @@
 /area/space)
 "gJ" = (
 /obj/effect/decal/cleanable/shreds,
+/obj/structure/target_stake,
 /turf/open/floor/plating{
 	icon_state = "platingdmg3"
 	},
@@ -2763,6 +2764,9 @@
 /obj/structure/fans/tiny,
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
+	},
+/obj/machinery/door/airlock/centcom{
+	name = "Shooting Range"
 	},
 /turf/open/floor/plasteel,
 /area/space)
@@ -7560,6 +7564,15 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
+/obj/item/gun/ballistic/automatic/pistol{
+	pixel_x = 4;
+	pixel_y = 6
+	},
+/obj/item/gun/ballistic/automatic/pistol/APS{
+	pixel_x = 3;
+	pixel_y = 2
+	},
+/obj/item/gun/ballistic/automatic/pistol/m1911,
 /turf/open/floor/plasteel,
 /area/space)
 "rf" = (
@@ -8116,6 +8129,15 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
+/obj/item/gun/ballistic/automatic/pistol/deagle{
+	step_x = 3;
+	step_y = 2
+	},
+/obj/item/gun/ballistic/automatic/pistol/deagle/camo{
+	pixel_x = 3;
+	pixel_y = 2
+	},
+/obj/item/gun/ballistic/automatic/pistol/deagle/gold,
 /turf/open/floor/plasteel,
 /area/space)
 "sb" = (
@@ -8629,6 +8651,8 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
+/obj/item/gun/ballistic/shotgun/toy/unrestricted,
+/obj/item/gun/ballistic/shotgun/toy/crossbow,
 /turf/open/floor/plasteel,
 /area/space)
 "sW" = (
@@ -9162,11 +9186,18 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/stripes/line,
+/obj/item/gun/ballistic/revolver,
+/obj/item/gun/ballistic/revolver/golden,
+/obj/item/gun/ballistic/revolver/detective,
 /turf/open/floor/plasteel,
 /area/space)
 "uc" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/stripes/line,
+/obj/item/gun/ballistic/revolver/mateba,
+/obj/item/gun/ballistic/revolver/nagant,
+/obj/item/gun/ballistic/revolver/mime,
+/obj/item/gun/ballistic/revolver/russian,
 /turf/open/floor/plasteel,
 /area/space)
 "ud" = (
@@ -9188,6 +9219,8 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/stripes/line,
+/obj/item/gun/ballistic/automatic/toy/unrestricted,
+/obj/item/gun/ballistic/automatic/toy/pistol/unrestricted,
 /turf/open/floor/plasteel,
 /area/space)
 "ug" = (
@@ -9868,6 +9901,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
+/obj/machinery/recharger,
 /turf/open/floor/plasteel,
 /area/space)
 "vs" = (
@@ -9930,6 +9964,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
+/obj/machinery/recharger,
 /turf/open/floor/plasteel,
 /area/space)
 "vA" = (
@@ -10963,6 +10998,11 @@
 /area/space)
 "xD" = (
 /obj/structure/table/reinforced,
+/obj/item/grenade/clusterbuster/soap,
+/obj/item/grenade/clusterbuster/smoke,
+/obj/item/grenade/clusterbuster/slime,
+/obj/item/grenade/clusterbuster/metalfoam,
+/obj/item/grenade/clusterbuster/inferno,
 /turf/open/floor/plasteel/dark,
 /area/space)
 "xE" = (
@@ -11478,6 +11518,15 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
+/obj/item/uplink/nuclear{
+	pixel_x = 4;
+	pixel_y = 6
+	},
+/obj/item/uplink/old{
+	pixel_x = 3;
+	pixel_y = 2
+	},
+/obj/item/uplink/incursion,
 /turf/open/floor/plasteel,
 /area/space)
 "yM" = (
@@ -11833,6 +11882,7 @@
 "zt" = (
 /obj/structure/table/wood,
 /obj/item/storage/fancy/cigarettes/cigars/cohiba,
+/obj/item/soapstone/infinite,
 /turf/open/floor/plasteel,
 /area/space)
 "zu" = (
@@ -12677,13 +12727,6 @@
 /turf/open/floor/grass,
 /area/wizard_station)
 "Bj" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
-/area/space)
-"Bk" = (
-/obj/item/storage/briefcase/sniperbundle,
 /obj/machinery/light{
 	dir = 1
 	},
@@ -13970,6 +14013,17 @@
 "Di" = (
 /turf/closed/indestructible/riveted,
 /area/ai_multicam_room)
+"Dk" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/item/gun/energy/lasercannon,
+/obj/item/gun/energy/laser,
+/obj/item/gun/energy/laser/captain,
+/obj/item/gun/energy/laser/retro,
+/turf/open/floor/plasteel,
+/area/space)
 "Dp" = (
 /obj/structure/trap/ctf/red,
 /obj/effect/turf_decal/tile/red,
@@ -15146,6 +15200,15 @@
 "FX" = (
 /turf/open/floor/plasteel/stairs,
 /area/centcom/holding)
+"FY" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/item/gun/energy/mindflayer,
+/obj/item/gun/energy/xray,
+/turf/open/floor/plasteel,
+/area/space)
 "Gb" = (
 /obj/machinery/shower{
 	dir = 4
@@ -15674,6 +15737,16 @@
 	},
 /turf/open/floor/wood,
 /area/centcom/holding)
+"Ha" = (
+/obj/structure/table/reinforced,
+/obj/item/grenade/chem_grenade/holy,
+/obj/item/grenade/chem_grenade/holy,
+/obj/item/grenade/chem_grenade/holy,
+/obj/item/grenade/chem_grenade/bioterrorfoam,
+/obj/item/grenade/chem_grenade/bioterrorfoam,
+/obj/item/grenade/chem_grenade/bioterrorfoam,
+/turf/open/floor/plasteel/dark,
+/area/space)
 "Hb" = (
 /obj/structure/sink{
 	dir = 8;
@@ -16966,6 +17039,26 @@
 "JI" = (
 /turf/closed/indestructible/fakeglass,
 /area/tdome/tdomeadmin)
+"JK" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/rack,
+/obj/item/ammo_box/a762,
+/obj/item/ammo_box/a762,
+/obj/item/ammo_box/a357,
+/obj/item/ammo_box/a357,
+/obj/item/ammo_box/c38,
+/obj/item/ammo_box/c38,
+/obj/item/ammo_box/c38/hotshot,
+/obj/item/ammo_box/c38/iceblox,
+/obj/item/ammo_box/c38/trac,
+/obj/item/ammo_box/c38/mime,
+/obj/item/ammo_box/magazine/wt550m9,
+/obj/item/ammo_box/magazine/wt550m9/wtic,
+/obj/item/ammo_box/magazine/wt550m9/wtap,
+/turf/open/floor/plasteel,
+/area/space)
 "JL" = (
 /obj/structure/rack,
 /obj/item/clothing/under/color/green,
@@ -17177,6 +17270,15 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/tdome/tdomeadmin)
+"Kd" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/item/gun/energy/meteorgun,
+/obj/item/gun/energy/meteorgun/pen,
+/turf/open/floor/plasteel,
+/area/space)
 "Kg" = (
 /turf/closed/indestructible/fakedoor{
 	name = "Thunderdome Admin"
@@ -18106,6 +18208,16 @@
 	},
 /turf/open/floor/grass,
 /area/centcom/holding)
+"MH" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/item/gun/ballistic/shotgun/bulldog/unrestricted,
+/obj/item/gun/ballistic/shotgun/automatic/combat,
+/obj/item/gun/ballistic/shotgun/automatic/combat/compact,
+/turf/open/floor/plasteel,
+/area/space)
 "MK" = (
 /obj/structure/mineral_door/paperframe{
 	name = "Dojo"
@@ -18224,6 +18336,14 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ctf)
+"Nu" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/stripes/line,
+/obj/item/gun/energy/plasmacutter,
+/obj/item/gun/energy/plasmacutter/adv,
+/obj/item/gun/energy/kinetic_accelerator,
+/turf/open/floor/plasteel,
+/area/space)
 "Nv" = (
 /obj/structure/table,
 /turf/open/floor/plasteel/cafeteria{
@@ -18272,6 +18392,16 @@
 	},
 /turf/open/floor/plasteel,
 /area/tdome/arena)
+"NC" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/item/gun/ballistic/automatic/gyropistol,
+/obj/item/gun/ballistic/shotgun,
+/obj/item/gun/ballistic/shotgun/automatic/breaching,
+/turf/open/floor/plasteel,
+/area/space)
 "NE" = (
 /turf/open/floor/plasteel,
 /area/centcom/supplypod/podStorage)
@@ -18315,6 +18445,33 @@
 "NO" = (
 /turf/open/floor/plasteel/dark,
 /area/centcom/supplypod)
+"NQ" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/item/gun/energy/kinetic_accelerator/crossbow,
+/obj/item/gun/energy/kinetic_accelerator/crossbow/halloween,
+/obj/item/gun/energy/kinetic_accelerator/crossbow/large,
+/obj/item/gun/energy/kinetic_accelerator/crossbow/radbow,
+/turf/open/floor/plasteel,
+/area/space)
+"NS" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/item/gun/energy/alien,
+/obj/item/gun/energy/decloner/unrestricted,
+/obj/item/gun/energy/floragun,
+/obj/item/gun/energy/e_gun/mini/practice_phaser,
+/obj/item/gun/energy/e_gun/mini,
+/turf/open/floor/plasteel,
+/area/space)
 "NT" = (
 /obj/structure/window/paperframe{
 	CanAtmosPass = 0
@@ -18371,6 +18528,17 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ctf)
+"Om" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/item/gun/ballistic/minigun,
+/obj/item/gun/energy/pulse/destroyer,
+/obj/item/gun/energy/pulse/carbine,
+/obj/item/gun/energy/pulse/pistol,
+/turf/open/floor/plasteel,
+/area/space)
 "Op" = (
 /obj/structure/sink{
 	dir = 8;
@@ -18394,6 +18562,20 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/supplypod/loading/two)
+"OE" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/machinery/chem_dispenser/chem_synthesizer,
+/turf/open/floor/plasteel,
+/area/space)
 "OG" = (
 /obj/structure/dresser,
 /obj/machinery/light{
@@ -18401,6 +18583,20 @@
 	},
 /turf/open/floor/wood,
 /area/centcom/holding)
+"OO" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/machinery/chem_master,
+/turf/open/floor/plasteel,
+/area/space)
 "OP" = (
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
@@ -18465,6 +18661,17 @@
 	},
 /turf/open/floor/carpet/black,
 /area/centcom/holding)
+"Pq" = (
+/obj/structure/table/wood,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/item/storage/briefcase/sniperbundle,
+/turf/open/floor/plasteel,
+/area/space)
 "Pr" = (
 /obj/structure/table,
 /obj/item/book/manual/chef_recipes,
@@ -18533,6 +18740,13 @@
 /obj/machinery/autolathe,
 /turf/open/floor/wood,
 /area/centcom/holding)
+"PM" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/stripes/line,
+/obj/item/gun/energy/gravity_gun,
+/obj/item/gun/energy/wormhole_projector,
+/turf/open/floor/plasteel,
+/area/space)
 "PO" = (
 /obj/machinery/hydroponics/constructable,
 /obj/effect/turf_decal/tile/green{
@@ -18734,6 +18948,16 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/supplypod/loading/three)
+"QN" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/machinery/chem_heater,
+/turf/open/floor/plasteel,
+/area/space)
 "QO" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -18749,12 +18973,33 @@
 	smooth = 1
 	},
 /area/centcom/holding)
+"QV" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/item/gun/ballistic/rocketlauncher,
+/obj/item/gun/ballistic/revolver/grenadelauncher/unrestricted,
+/obj/item/gun/grenadelauncher,
+/turf/open/floor/plasteel,
+/area/space)
 "QW" = (
 /obj/structure/closet/secure_closet/freezer/kitchen{
 	locked = 0
 	},
 /turf/open/floor/plasteel/cafeteria,
 /area/centcom/holding)
+"QX" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/item/his_grace,
+/turf/open/floor/plasteel,
+/area/space)
 "QY" = (
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/blue{
@@ -18813,6 +19058,30 @@
 	},
 /turf/open/floor/wood,
 /area/centcom/holding)
+"Rn" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/item/gun/ballistic/automatic/l6_saw/unrestricted,
+/obj/item/gun/ballistic/automatic/ar,
+/obj/item/gun/energy/printer,
+/turf/open/floor/plasteel,
+/area/space)
+"Ro" = (
+/obj/structure/table/reinforced,
+/obj/machinery/syndicatebomb,
+/obj/machinery/syndicatebomb/badmin,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"Rq" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/stripes/line,
+/obj/item/gun/energy/taser,
+/obj/item/gun/energy/tesla_revolver,
+/obj/item/gun/energy/e_gun/advtaser,
+/turf/open/floor/plasteel,
+/area/space)
 "Ru" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -18889,6 +19158,12 @@
 /obj/structure/window/reinforced/spawner/north,
 /turf/open/floor/plasteel/dark,
 /area/ctf)
+"RL" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/belt/grenade/full,
+/obj/item/storage/belt/grenade/full,
+/turf/open/floor/plasteel/dark,
+/area/space)
 "RM" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -18916,9 +19191,36 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/centcom/supplypod/loading/two)
+"Sg" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/item/gun/energy/e_gun/stun,
+/obj/item/gun/energy/e_gun/turret,
+/obj/item/gun/energy/e_gun/nuclear,
+/obj/item/gun/energy/e_gun/hos,
+/turf/open/floor/plasteel,
+/area/space)
 "Si" = (
 /turf/open/floor/plasteel,
 /area/centcom/supplypod/loading/two)
+"Sj" = (
+/obj/structure/table/reinforced,
+/obj/item/grenade/spawnergrenade/buzzkill{
+	pixel_x = 6;
+	pixel_y = 4
+	},
+/obj/item/grenade/spawnergrenade/buzzkill{
+	pixel_x = 3;
+	pixel_y = 2
+	},
+/obj/item/grenade/spawnergrenade/buzzkill,
+/obj/item/grenade/gluon,
+/obj/item/grenade/gluon,
+/obj/item/grenade/gluon,
+/turf/open/floor/plasteel/dark,
+/area/space)
 "So" = (
 /obj/effect/turf_decal/tile/bar,
 /obj/effect/turf_decal/tile/bar{
@@ -18933,6 +19235,22 @@
 /obj/item/camera,
 /turf/open/floor/holofloor/carpet,
 /area/holodeck/rec_center/photobooth)
+"St" = (
+/obj/structure/table/reinforced,
+/obj/item/grenade/plastic/x4,
+/obj/item/grenade/plastic/x4,
+/obj/item/grenade/plastic/x4,
+/obj/item/grenade/plastic/c4{
+	pixel_x = 9
+	},
+/obj/item/grenade/plastic/c4{
+	pixel_x = 9
+	},
+/obj/item/grenade/plastic/c4{
+	pixel_x = 9
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
 "Su" = (
 /turf/open/floor/plasteel,
 /area/centcom/supplypod)
@@ -19012,6 +19330,18 @@
 /obj/structure/closet/secure_closet/personal,
 /turf/open/floor/plasteel/dark,
 /area/centcom/supplypod)
+"SL" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/rack,
+/obj/item/ammo_box/a40mm,
+/obj/item/ammo_box/c10mm,
+/obj/item/ammo_box/c45,
+/obj/item/ammo_box/c9mm,
+/obj/item/ammo_box/foambox,
+/obj/item/ammo_box/foambox/riot,
+/obj/item/ammo_box/n762,
+/turf/open/floor/plasteel,
+/area/space)
 "SN" = (
 /obj/structure/mopbucket,
 /obj/item/mop,
@@ -19065,6 +19395,13 @@
 /obj/item/pen/fountain,
 /turf/open/floor/wood,
 /area/centcom/holding)
+"SV" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/stripes/line,
+/obj/item/gun/energy/beam_rifle,
+/obj/item/gun/energy/chrono_gun,
+/turf/open/floor/plasteel,
+/area/space)
 "SW" = (
 /obj/machinery/seed_extractor,
 /obj/effect/turf_decal/tile/green{
@@ -19237,6 +19574,15 @@
 /obj/item/storage/fancy/donut_box,
 /turf/open/floor/plasteel,
 /area/centcom/supplypod)
+"TV" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/item/gun/ballistic/automatic/m90/unrestricted,
+/obj/item/gun/ballistic/automatic/c20r/unrestricted,
+/turf/open/floor/plasteel,
+/area/space)
 "Ub" = (
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
@@ -19333,6 +19679,12 @@
 	},
 /turf/open/floor/wood,
 /area/centcom/holding)
+"UL" = (
+/obj/structure/table/reinforced,
+/obj/machinery/syndicatebomb/badmin/clown,
+/obj/machinery/syndicatebomb/self_destruct,
+/turf/open/floor/plasteel/dark,
+/area/space)
 "UM" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
@@ -19373,6 +19725,20 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ctf)
+"Vb" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/structure/reagent_dispensers/watertank/high,
+/turf/open/floor/plasteel,
+/area/space)
 "Vk" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -19391,6 +19757,33 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/centcom/supplypod/loading/three)
+"Vp" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/stripes/line,
+/obj/item/ammo_box/magazine/m10mm,
+/obj/item/ammo_box/magazine/m10mm/ap,
+/obj/item/ammo_box/magazine/m10mm/fire,
+/obj/item/ammo_box/magazine/m10mm/hp,
+/obj/item/ammo_box/magazine/m10mm/rifle,
+/obj/item/ammo_box/magazine/m12g,
+/obj/item/ammo_box/magazine/m45,
+/obj/item/ammo_box/magazine/m50,
+/obj/item/ammo_box/magazine/m556,
+/obj/item/ammo_box/magazine/m75,
+/obj/item/ammo_box/magazine/mm712x82,
+/obj/item/ammo_box/magazine/mm712x82/ap,
+/obj/item/ammo_box/magazine/mm712x82/hollow,
+/obj/item/ammo_box/magazine/mm712x82/incen,
+/obj/item/ammo_box/magazine/smgm45,
+/obj/item/ammo_box/magazine/smgm9mm,
+/obj/item/ammo_box/magazine/smgm9mm/ap,
+/obj/item/ammo_box/magazine/smgm9mm/fire,
+/obj/item/ammo_box/magazine/sniper_rounds,
+/obj/item/ammo_box/magazine/sniper_rounds/penetrator,
+/obj/item/ammo_box/magazine/sniper_rounds/soporific,
+/obj/item/ammo_box/magazine/uzim9mm,
+/turf/open/floor/plasteel,
+/area/space)
 "Vr" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 4
@@ -19424,6 +19817,20 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ctf)
+"Vx" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/structure/reagent_dispensers/fueltank,
+/turf/open/floor/plasteel,
+/area/space)
 "Vz" = (
 /obj/machinery/vending/wallmed{
 	name = "Emergency NanoMed";
@@ -19438,6 +19845,15 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/centcom/holding)
+"VE" = (
+/obj/structure/table/reinforced,
+/obj/item/grenade/clusterbuster/teargas,
+/obj/item/grenade/clusterbuster/syndieminibomb,
+/obj/item/grenade/clusterbuster/spawner_spesscarp,
+/obj/item/grenade/clusterbuster/spawner_manhacks,
+/obj/item/grenade/clusterbuster,
+/turf/open/floor/plasteel/dark,
+/area/space)
 "VF" = (
 /obj/structure/rack,
 /obj/item/nullrod/scythe/vibro{
@@ -19541,11 +19957,45 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/supplypod/loading/four)
+"Wv" = (
+/obj/structure/table/reinforced,
+/obj/item/grenade/clusterbuster/facid,
+/obj/item/grenade/clusterbuster/emp,
+/obj/item/grenade/clusterbuster/clf3,
+/obj/item/grenade/clusterbuster/cleaner,
+/obj/item/grenade/clusterbuster/antiweed,
+/turf/open/floor/plasteel/dark,
+/area/space)
 "WB" = (
 /obj/structure/table/abductor,
 /obj/machinery/recharger,
 /turf/open/floor/plating/abductor,
 /area/abductor_ship)
+"WD" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/item/gun/energy/ionrifle/carbine,
+/obj/item/gun/energy/ionrifle,
+/obj/item/gun/energy/temperature,
+/obj/item/gun/energy/temperature/security,
+/obj/item/gun/energy/e_gun/dragnet,
+/turf/open/floor/plasteel,
+/area/space)
+"WE" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/item/gun/ballistic/automatic/surplus,
+/obj/item/gun/ballistic/automatic/sniper_rifle/syndicate{
+	pixel_x = 5;
+	pixel_y = 4
+	},
+/obj/item/gun/ballistic/automatic/sniper_rifle,
+/turf/open/floor/plasteel,
+/area/space)
 "WJ" = (
 /obj/machinery/door/airlock/centcom{
 	name = "Thunderdome Administration";
@@ -19565,6 +20015,17 @@
 /obj/machinery/light,
 /turf/open/floor/plasteel,
 /area/centcom/supplypod)
+"WN" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/item/gun/ballistic/automatic/mini_uzi,
+/obj/item/gun/ballistic/automatic/proto/unrestricted,
+/obj/item/gun/ballistic/automatic/tommygun,
+/obj/item/ammo_box/magazine/tommygunm45,
+/turf/open/floor/plasteel,
+/area/space)
 "WQ" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/centcom{
@@ -19580,6 +20041,18 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/ferry)
+"WU" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/stripes/line,
+/obj/item/gun/chem,
+/obj/item/gun/chem/bee,
+/obj/item/gun/blastcannon,
+/obj/item/gun/syringe,
+/obj/item/gun/syringe/rapidsyringe,
+/obj/item/gun/syringe/syndicate,
+/obj/item/gun/syringe/blowgun,
+/turf/open/floor/plasteel,
+/area/space)
 "WY" = (
 /obj/structure/mineral_door/paperframe{
 	name = "Arcade"
@@ -19611,6 +20084,16 @@
 	},
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/basketball)
+"Xg" = (
+/obj/structure/table/reinforced,
+/obj/item/grenade/chem_grenade/teargas/moustache,
+/obj/item/grenade/chem_grenade/teargas/moustache,
+/obj/item/grenade/chem_grenade/teargas/moustache,
+/obj/item/grenade/spawnergrenade/clown,
+/obj/item/grenade/spawnergrenade/clown,
+/obj/item/grenade/spawnergrenade/clown,
+/turf/open/floor/plasteel/dark,
+/area/space)
 "Xh" = (
 /turf/open/floor/plasteel,
 /area/centcom/supplypod/loading/four)
@@ -19710,6 +20193,16 @@
 	},
 /turf/open/floor/wood,
 /area/centcom/holding)
+"XZ" = (
+/obj/structure/table/reinforced,
+/obj/item/gun/energy/beam_rifle/debug,
+/obj/item/gun/energy/laser/instakill,
+/obj/item/gun/blastcannon/debug,
+/obj/item/gun,
+/obj/item/gun/ballistic,
+/obj/item/gun/ballistic/automatic,
+/turf/open/floor/plasteel,
+/area/space)
 "Ya" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood,
@@ -19897,6 +20390,15 @@
 /obj/effect/turf_decal/tile/green,
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/firingrange)
+"Zj" = (
+/obj/structure/table/reinforced,
+/obj/item/grenade/spawnergrenade/manhacks,
+/obj/item/grenade/spawnergrenade/spesscarp,
+/obj/item/grenade/spawnergrenade/syndiesoap,
+/obj/item/grenade/syndieminibomb,
+/obj/item/grenade/syndieminibomb,
+/turf/open/floor/plasteel/dark,
+/area/space)
 "Zl" = (
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
@@ -19916,6 +20418,11 @@
 /obj/machinery/light,
 /turf/open/floor/wood,
 /area/centcom/holding)
+"Zw" = (
+/obj/structure/table/reinforced,
+/obj/machinery/cell_charger,
+/turf/open/floor/plasteel/dark,
+/area/space)
 "Zx" = (
 /mob/living/simple_animal/bot/medbot{
 	desc = "A little medical robot. You can make out the word \"sincerity\" on its chassis.";
@@ -20049,6 +20556,17 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/supply)
+"ZZ" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/item/gun/energy/laser/scatter/shotty,
+/obj/item/gun/energy/laser/scatter,
+/obj/item/gun/energy/laser/captain/scattershot,
+/obj/item/gun/energy/e_gun,
+/turf/open/floor/plasteel,
+/area/space)
 
 (1,1,1) = {"
 aa
@@ -58313,7 +58831,7 @@ hk
 ho
 hs
 gv
-gv
+XZ
 gc
 yW
 ab
@@ -59342,18 +59860,18 @@ gy
 gy
 gy
 gy
-sa
+Rn
 ab
 gy
 gy
 gy
 gc
-zv
+Vb
 zv
 zv
 zv
 AC
-AC
+OE
 ab
 aa
 aa
@@ -59596,21 +60114,21 @@ gy
 re
 ub
 gy
-re
-ub
+NS
+NQ
 gy
-sa
+TV
 ab
 ab
 hn
 ab
 ab
-zv
+Vx
 zv
 zv
 zv
 AC
-AC
+OO
 ab
 aa
 aa
@@ -59853,10 +60371,10 @@ gy
 sa
 uc
 gy
-sa
-uc
+WD
+PM
 gy
-sa
+NC
 ab
 zR
 zS
@@ -59867,7 +60385,7 @@ zv
 zv
 zv
 AD
-wS
+QN
 ab
 aa
 aa
@@ -60107,24 +60625,24 @@ ab
 ab
 ab
 gy
-sa
-uc
+WN
+WU
 gy
-sa
-uc
+Dk
+Rq
 gy
-sa
+MH
 ab
 tY
 xD
-xD
+VE
 hY
 zv
 zv
 zv
 zv
 AI
-xD
+Zw
 ab
 aa
 aa
@@ -60364,24 +60882,24 @@ ab
 go
 gl
 gy
-sa
-uc
+WE
+Vp
 gy
-sa
-uc
+ZZ
+Nu
 gy
-sa
+FY
 ab
 tY
-xD
-xD
+Zj
+Wv
 hY
 zv
 zv
 zv
 zv
 AI
-xD
+Ro
 ab
 aa
 aa
@@ -60621,24 +61139,24 @@ ab
 go
 gl
 gy
-sa
-uc
+JK
+SL
 gy
-sa
-uc
+Sg
+SV
 gy
-sa
+Kd
 ab
 tY
-xD
-xD
+Xg
+Ha
 hY
 zv
 zv
 zv
 zv
 AI
-xD
+UL
 ab
 aa
 aa
@@ -60884,18 +61402,18 @@ gy
 vr
 vz
 gy
-sa
+QV
 ab
 tY
-xD
-xD
+St
+Sj
 hY
 zv
 zv
 zv
 zv
 AI
-xD
+RL
 ab
 aa
 aa
@@ -61141,7 +61659,7 @@ gy
 gy
 gy
 gy
-sa
+Om
 ab
 zu
 vp
@@ -62180,7 +62698,7 @@ uK
 yO
 lG
 lG
-zu
+QX
 ab
 aa
 aa
@@ -64216,7 +64734,7 @@ Kv
 Iv
 gm
 Iv
-Bk
+Bj
 hY
 lG
 tY
@@ -65254,7 +65772,7 @@ vy
 uI
 wR
 wS
-xC
+Pq
 xC
 xC
 wS
