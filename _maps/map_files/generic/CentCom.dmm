@@ -8150,8 +8150,8 @@
 	dir = 1
 	},
 /obj/item/gun/ballistic/automatic/pistol/deagle{
-	step_x = 3;
-	step_y = 2
+	pixel_x = 3;
+	pixel_y = 2
 	},
 /obj/item/gun/ballistic/automatic/pistol/deagle/camo{
 	pixel_x = 3;
